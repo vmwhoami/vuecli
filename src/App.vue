@@ -1,14 +1,17 @@
 <template>
+<Navbar/>
   <NewComponent msg="Some great text" />
 </template>
 
 <script>
 import NewComponent from './components/NewComponent.vue';
+import Navbar from './components/navbar.vue';
 
 export default {
   name: 'App',
   components: {
     NewComponent,
+    Navbar,
   },
 };
 </script>
