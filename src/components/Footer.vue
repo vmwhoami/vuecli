@@ -13,7 +13,8 @@ export default {
 </script>
 
 <style  scoped>
-h2 {
-  margin: 0;
+footer{
+  background: rgb(24, 24, 24);
+  color: white;
 }
 </style>
