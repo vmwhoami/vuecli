@@ -1,11 +1,18 @@
 <template>
-   <footer>{{info}}</footer>
+   <footer>
+     <div>
+       <span>
+      &#169; {{  author }}  {{info}}
+     </span>
+     </div>
+    </footer>
 </template>
 
 <script>
 export default {
   data() {
     return {
+      author: 'vmwhoami',
       info: new Date().getFullYear(),
     };
   },
@@ -14,7 +21,14 @@ export default {
 
 <style  scoped>
 footer{
+  height: 100px;
+  display: flex;
+  align-items: center;
+justify-content: center;
   background: rgb(24, 24, 24);
   color: white;
+}
+span{
+text-transform: uppercase;
 }
 </style>
