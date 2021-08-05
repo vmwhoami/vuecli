@@ -2,7 +2,7 @@
    <footer>
      <div>
        <span>
-      &#169; {{  author }}  {{info}}
+      &#169; {{  author }} 2020-{{currentYear}}
      </span>
      </div>
     </footer>
@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       author: 'vmwhoami',
-      info: new Date().getFullYear(),
+      currentYear: new Date().getFullYear(),
     };
   },
 };
