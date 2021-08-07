@@ -4,6 +4,7 @@ import store from './store/store';
 import App from './App.vue';
 
 const bus = mitt();
+
 const app = createApp(App);
 
 app.use(store);
